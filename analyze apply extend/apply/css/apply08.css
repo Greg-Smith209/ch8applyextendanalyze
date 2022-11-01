@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author:Gregory Smith
+Date:11/1/2022
+File Name: apply08.css
 */
 
 /* CSS Reset */
@@ -26,4 +26,48 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+/* Style rules for table */
+table{
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:auto;
+  margin-right:auto;
+  border: 3px solid #71881b;
+
+}
+
+
+/* Border and padding rules for table rows, data, and headings */
+tr, th, td {
+border: collapse;
+padding: 2%;
+
+}
+
+
+/* Caption style rules */
+caption{
+  font-size: 2em;
+  padding:2%;
+  margin-top: 2%;
+}
+
+/* Table header and data borders */
+th, td{
+border:1px solid #7188bb;
+}
+
+/* table data center */
+td{
+  text-align: center;
+
+}
+
+/* odd row colors */
+
+tr:nth-child(odd){
+  background-color: #d3e788;
 }
