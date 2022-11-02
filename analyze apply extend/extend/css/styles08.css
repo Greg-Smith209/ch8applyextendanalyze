@@ -1,0 +1,73 @@
+/*
+Author:Gregory Smith
+Date:11/1/2022
+File Name: styles08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style rules for table */
+table{
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left:auto;
+  margin-right:auto;
+background-color: #ffe5dc;
+border-color: #fd4d0c;
+box-shadow: #792101;
+font-style: sans-serif;
+}
+
+
+/* Border and padding rules for table rows, data, and headings */
+tr, th, td {
+border: collapse;
+padding: 2%;
+
+}
+
+
+/* Caption style rules */
+caption{
+  font-size: 2em;
+  padding:2%;
+  margin-top: 2%;
+}
+
+/* Table header and data borders */
+th, td{
+border:1px solid #7188bb;
+}
+
+/* table data center */
+td{
+  text-align: center;
+
+border-color: #a22c02;
+}
+
+tr:nth-child(odd){
+  background-color: #fe9772;
+}
